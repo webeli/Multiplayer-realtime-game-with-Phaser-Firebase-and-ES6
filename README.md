@@ -24,7 +24,7 @@ Codepen example: http://codepen.io/belohlavek/full/aORJVL
 
 ## Why?
 
-ES6 is the future!
+ES6 [is the future](http://www.ecma-international.org/publications/standards/Ecma-262.htm)!
 
 Anyways, I been using ES6 for a while in other personal projects, and I currently prefer it over ES5 and Typescript. 
 I found the new Class-based syntax to be a better fit for my developer needs. Unfortunately, the best way to access
@@ -65,7 +65,7 @@ This behaviour can be changed in the Gulpfile.
 
 ### Modifying `gulpfile.js`
 
-See `gulpfile.md`
+See [gulpfile.md](https://github.com/belohlavek/phaser-es6-boilerplate/blob/master/gulpfile.md)
 
 ## Contributing
 
