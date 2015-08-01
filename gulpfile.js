@@ -1,6 +1,6 @@
+var del = require('del');
 var gulp = require('gulp');
 var argv = require('yargs').argv;
-var clean = require('gulp-clean');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
 var buffer = require('gulp-buffer');
@@ -31,8 +31,7 @@ function isProduction() {
  * Deletes all content inside the './build' folder.
  */
 gulp.task('cleanBuild', function() {
-    return gulp.src(BUILD_PATH, {read: false})
-        .pipe(clean());
+    del(['build/**/*.*']);
 });
 
 /**
