@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var argv = require('yargs').argv;
 var clean = require('gulp-clean');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
@@ -22,7 +23,8 @@ var ENTRY_FILE = SOURCE_PATH + '/index.js';
 var OUTPUT_FILE = 'game.js';
 
 function isProduction() {
-    return (process.env.NODE_ENV === 'production') ? true : false;
+    // Easier to modify in the future.
+    return argv.production;
 }
 
 /**
@@ -70,6 +72,12 @@ gulp.task('copyPhaser', ['copyStatic'], function() {
 gulp.task('build', ['copyPhaser'], function () {
     
     var sourcemapPath = SCRIPTS_PATH + '/' + OUTPUT_FILE + '.map';
+    
+    if (isProduction()) {
+        gutil.log(gutil.colors.green('Running production build...'));
+    } else {
+        gutil.log(gutil.colors.yellow('Running development build...'));
+    }
 
     return browserify({
         entries: ENTRY_FILE,

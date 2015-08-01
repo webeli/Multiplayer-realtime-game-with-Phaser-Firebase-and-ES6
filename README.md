@@ -26,7 +26,7 @@ Codepen example: http://codepen.io/belohlavek/full/aORJVL
 
 ES6 [is the future](http://www.ecma-international.org/publications/standards/Ecma-262.htm)!
 
-Anyways, I been using ES6 for a while in other personal projects, and I currently prefer it over ES5 and Typescript. 
+Anyways, I've been using ES6 for a while in other personal projects, and I currently prefer it over ES5 and Typescript. 
 I found the new Class-based syntax to be a better fit for my developer needs. Unfortunately, the best way to access
 all the features of the new standard is by using a transpiler. This boilerplate is an attempt to reduce the time spent 
 configurating a project and installing dependencies by providing a template that can work as an scaffold for any Phaser game.
@@ -37,7 +37,7 @@ You need [Node.js and npm](https://nodejs.org/). You should also have git instal
 
 Clone the repository (or download the ZIP file)
 
-`git clone asd.git`
+`git clone https://github.com/belohlavek/phaser-es6-boilerplate.git`
 
 Install dependencies
 
@@ -52,7 +52,7 @@ Run a development build...
 `npm run production`
 
 Development builds will copy `phaser.min.js` together with `phaser.map` and `phaser.js`
-Your ES6 code will be transpiled into ES5 and concantenated into a single file.
+Your ES6 code will be transpiled into ES5 and concatenated into a single file.
 A sourcemap for your code will also be included (by default `game.map.js`).
 
 Production builds will only copy `phaser.min.js`. Your ES6 code will be transpiled and
@@ -61,7 +61,7 @@ minified using UglifyJS.
 Any modification to the files inside the `./src` folder will trigger a full page reload.
 
 If you modify the contents of other files, please manually restart the server.
-This behaviour can be changed in the Gulpfile.
+This behavior can be changed in the Gulpfile.
 
 ### Modifying `gulpfile.js`
 
