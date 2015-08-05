@@ -58,14 +58,18 @@ A sourcemap for your code will also be included (by default `game.map.js`).
 Production builds will only copy `phaser.min.js`. Your ES6 code will be transpiled and
 minified using UglifyJS.
 
-Any modification to the files inside the `./src` folder will trigger a full page reload.
+Any modification to the files inside the `./src` and `./static` folder will trigger a full page reload.
 
 If you modify the contents of other files, please manually restart the server.
-This behavior can be changed in the Gulpfile.
 
 ### Modifying `gulpfile.js`
 
 See [gulpfile.md](https://github.com/belohlavek/phaser-es6-boilerplate/blob/master/gulpfile.md)
+
+## Changelog (1.0.2)
+
+* Faster builds (no need to copy static files every time).
+* Live reload now works with static files too!
 
 ## Contributing
 
