@@ -1,5 +1,6 @@
 var del = require('del');
 var gulp = require('gulp');
+var path = require('path');
 var argv = require('yargs').argv;
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
@@ -103,6 +104,7 @@ function build() {
     logBuildMode();
 
     return browserify({
+        paths: [ path.join(__dirname, 'src') ],
         entries: ENTRY_FILE,
         debug: true
     })
