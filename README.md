@@ -1,4 +1,4 @@
-# Multiplayer realtime game with Phaser, Firebase and ES6
+# Multiplayer realtime game with Phaser, Firebase and ES6 (In progress)
 
 Demo: http://webeli.com/phasergame
 
