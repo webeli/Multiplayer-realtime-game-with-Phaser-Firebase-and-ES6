@@ -1,7 +1,7 @@
 {
   "name": "phaser-es6-boilerplate",
   "version": "1.0.2",
-  "description": "Tiny flexible template for writing Phaser games in ES6/ES2015 with Babel.",
+  "description": "Realtime game using Phaser, Firebase and ES6",
   "main": "src/index.js",
   "scripts": {
     "start": "gulp",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/belohlavek/phaser-es6-boilerplate"
   },
-  "author": "Daniel Belohlavek",
+  "author": "Elias Hansen",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^6.1.3",
@@ -28,6 +28,7 @@
     "yargs": "^3.16.1"
   },
   "dependencies": {
-    "phaser": "^2.4.1" 
+    "firebase": "^2.4.1",
+    "phaser": "^2.4.1"
   }
 }
