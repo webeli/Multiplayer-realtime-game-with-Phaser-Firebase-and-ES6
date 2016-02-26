@@ -47,6 +47,4 @@ Any modification to the files inside the `./src` and `./static` folder will trig
 
 If you modify the contents of other files, please manually restart the server.
 
-### Modifying `gulpfile.js`
-
-See [gulpfile.md](https://github.com/belohlavek/phaser-es6-boilerplate/blob/master/gulpfile.md)
+Thanks to belohlavek for the boilerplate: https://github.com/belohlavek/phaser-es6-boilerplate

@@ -16,10 +16,10 @@ Default: `./node_modules/phaser/build/`
 Default: `./build/`
 
 ***
-
+ 
 **`SCRIPTS_PATH`** should be contained inside the build folder, used to store Javascript files. 
 
-Default: `BUILD_PATH + '/scripts'`
+Default: `BUILD_PATH + '/scripts'` 
 
 ***
 

@@ -11,7 +11,7 @@ class RainbowText extends Phaser.Text {
 		this.colorize();
 		this.startTimer();
  
-		this.game.stage.addChild(this);
+		this.game.stage.addChild(this);  
 
 	}
 	

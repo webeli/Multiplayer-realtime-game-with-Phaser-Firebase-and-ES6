@@ -10,4 +10,4 @@ class GameState extends Phaser.State {
 
 }
 
-export default GameState; 
+export default GameState;  
