@@ -18,12 +18,6 @@ Demo: http://webeli.com/phasergame
 
 ## Usage
 
-You need [Node.js and npm](https://nodejs.org/). You should also have git installed, but it's not mandatory.
-
-Clone the repository (or download the ZIP file)
-
-`git clone https://github.com/belohlavek/phaser-es6-boilerplate.git`
-
 Install dependencies
 
 `npm install`
@@ -46,5 +40,7 @@ minified using UglifyJS.
 Any modification to the files inside the `./src` and `./static` folder will trigger a full page reload.
 
 If you modify the contents of other files, please manually restart the server.
+
+## Credit
 
 Thanks to belohlavek for the boilerplate: https://github.com/belohlavek/phaser-es6-boilerplate
