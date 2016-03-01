@@ -13,7 +13,7 @@ class Game extends Phaser.Game {
 		var userId = Date.now().toString();
 		var fireRef = new Firebase('https://findplayer.firebaseio.com/');
 		var enemies = {};
-		//console.log(fireRef);
+		console.log(fireRef);
 	}
 
 }
