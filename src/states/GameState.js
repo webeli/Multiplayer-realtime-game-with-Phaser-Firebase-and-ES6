@@ -8,15 +8,10 @@ class GameState extends Phaser.State {
         this.game.create.texture('player', dudeData, 4, 4, 0);
     }
 
-    constructor() {
-        super() {
-            const player;
-        }
-    }
 
  	create() {
         // Starting variables
-        //let player;
+        let player;
         let cursors;
         //let userId = Date.now().toString();
         let fireRef = new Firebase('https://findplayer.firebaseio.com/');
@@ -36,12 +31,6 @@ class GameState extends Phaser.State {
 		let text = new RainbowText(this.game, center.x, center.y, "- phaser -\real time game with Firebase and ES6");
 		text.anchor.set(0.5);
 	}
-
-    render() {
-        this.game.debug.cameraInfo(this.game.camera, 32, 32);
-        this.game.debug.spriteCoords(this.player, 32, 200);
-        //fireRef.child(userId).set(player.position);
-    }
 
 }
 
